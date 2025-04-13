@@ -22,3 +22,7 @@ dotenv.config()
 const client = new MongoClient(process.env.MONGODB_URI)
 
 const dbName = process.env.DB_NAME
+
+# Docker
+## Build - docker build --no-cache -t  lesson-66 .
+## Start - docker run -p 3000:3000 lesson-66
